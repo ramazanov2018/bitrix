@@ -1,0 +1,16 @@
+.add_course {
+    margin: 15px 2px;
+}
+
+.add_course a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background-color: #646c7a;
+}
+a.course_subscribe {
+    font-size: 16px;
+    color: #452ef5 !important;
+    font-weight: bold;
+}
