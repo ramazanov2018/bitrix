@@ -2,7 +2,7 @@
 IncludeModuleLangFile(__FILE__);
 
 if(class_exists("rns.courses")) return;
-class Courses extends CModule{
+class rns_courses extends CModule{
     var $MODULE_ID = "rns.courses";
     var $MODULE_VERSION;
     var $MODULE_VERSION_DATE;
