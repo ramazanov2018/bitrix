@@ -2,6 +2,7 @@
 namespace Courses;
 
 use Bitrix\Main;
+use CAdminException;
 IncludeModuleLangFile(__FILE__);
 
 class CoursesControlTable extends Main\Entity\DataManager
