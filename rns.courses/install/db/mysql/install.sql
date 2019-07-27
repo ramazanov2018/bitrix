@@ -2,7 +2,7 @@ CREATE TABLE b_courses_list (
   ID int (18) not null auto_increment,
   CODE VARCHAR(100) NULL,
   NAME VARCHAR (100) NULL,
-  DESCRIPTION TEXT NULL,
+  DESCRIPTION LONGTEXT NULL,
   PRICE int (18) NULL,
   SORT int(11) DEFAULT 100 NOT NULL,
   ACTIVE CHAR(1),
@@ -15,6 +15,6 @@ CREATE TABLE b_courses_subscribe (
   ID int (18) not null auto_increment,
   USER_ID int (18) not null,
   COURSE_ID int (18) not null,
-	DATE_CREATE datetime,
-	PRIMARY KEY (ID)
+  DATE_CREATE datetime,
+  PRIMARY KEY (ID)
 );

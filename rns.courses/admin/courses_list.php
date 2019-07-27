@@ -4,21 +4,16 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admi
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/rns.courses/include.php"); // инициализация модуля
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/rns.courses/prolog.php"); // пролог модуля
 
-
 // подключим языковой файл
 IncludeModuleLangFile(__FILE__);
 
-
 // получим права доступа текущего пользователя на модуль
 $POST_RIGHT = $APPLICATION->GetGroupRight("rns.courses");
-
 
 // если нет прав - отправим к форме авторизации с сообщением об ошибке
 if ($POST_RIGHT == "D")
 $APPLICATION->AuthForm(GetMessage("ACCESS_DENIED"));
 ?>
-
-
 
 <?
 // здесь будет вся серверная обработка и подготовка данных
@@ -26,9 +21,7 @@ $sTableID = "tbl_courses"; // ID таблицы
 $oSort = new CAdminSorting($sTableID, "ID", "desc"); // объект сортировки
 $lAdmin = new CAdminList($sTableID, $oSort); // основной объект списка
 
-
-$cData = new CoursesControl();
-$rsData = $cData->getList(array());
+$rsData = CoursesControl::getList(array());
 // преобразуем список в экземпляр класса CAdminResult
 $rsData = new CAdminResult($rsData, $sTableID);
 $rsData->NavStart();
@@ -77,24 +70,11 @@ $lAdmin->CheckListMode();
 $APPLICATION->SetTitle(GetMessage("course_title"));
 ?>
 
-
-
-
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admin_after.php"); // второй общий пролог
 ?>
-<!--<div class="add_course">-->
-<!--    <a href="/bitrix/admin/course_edit.php?lang=ru">Добавить курс</a>-->
-<!--</div>-->
 <?
 $lAdmin->DisplayList();
 ?>
-
-
-
-
-
-
-
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_admin.php");?>

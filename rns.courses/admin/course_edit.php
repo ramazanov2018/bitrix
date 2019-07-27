@@ -4,63 +4,27 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_admi
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/rns.courses/include.php"); // инициализация модуля
 require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/rns.courses/prolog.php"); // пролог модуля
 
-
-
-
 // подключим языковой файл
 IncludeModuleLangFile(__FILE__);
-
-
-
-
-
-
 
 // получим права доступа текущего пользователя на модуль
 $POST_RIGHT = $APPLICATION->GetGroupRight("rns.courses");
 
-
-
-
-
-
-
-
-
 // если нет прав - отправим к форме авторизации с сообщением об ошибке
 if ($POST_RIGHT == "D")
     $APPLICATION->AuthForm(GetMessage("ACCESS_DENIED"));
-
-
-
-
-
 
 $aTabs = array(
     array("DIV" => "edit1", "TAB" => GetMessage("course_tab_course"), "ICON"=>"main_user_edit", "TITLE"=>""),
     array("DIV" => "edit2", "TAB" => GetMessage("course_tab_additional_property"), "ICON"=>"main_user_edit", "TITLE"=>""),
 );
 
-
-
-
-
-
-
 $tabControl = new CAdminTabControl("tabControl", $aTabs);
 $ID = intval($ID);		// идентификатор редактируемой записи
 $message = null;		// сообщение об ошибке
 $bVarsFromForm = false; // флаг "Данные получены с формы", обозначающий, что выводимые данные получены с формы, а не из БД.
 
-
-
-
-
-
-
 $CoursesControl = new CoursesControl(); // Класс для работы с БД (DataManager)
-
-
 
 if(
     $REQUEST_METHOD == "POST" // проверка метода вызова страницы
@@ -77,7 +41,7 @@ if(
             "DESCRIPTION" => $_REQUEST["DESCRIPTION"],
             "PRICE" => $_REQUEST["PRISE"],
             "SORT" => $_REQUEST["SORT"],
-            "ACTIVE" => $_REQUEST["ACTIVE"],
+            "ACTIVE" => ($_REQUEST["ACTIVE"])?"Y":"N",
             "DATE_START" => $_REQUEST["DATE_START"],
             "DATE_END" => $_REQUEST["DATE_END"],
     );

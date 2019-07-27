@@ -3,6 +3,7 @@ namespace Courses;
 
 use Bitrix\Main;
 use CAdminException;
+
 IncludeModuleLangFile(__FILE__);
 
 class CoursesControlTable extends Main\Entity\DataManager
@@ -73,7 +74,7 @@ class CoursesControl
 {
 
     private $LAST_ERROR = "";
-    function CheckFields($arFields)
+    protected function CheckFields($arFields)
     {
         $this->LAST_ERROR = "";
         $aMsg = array();
@@ -96,7 +97,7 @@ class CoursesControl
         return true;
     }
 
-    function add($arFields)
+    public function add($arFields)
     {
 
         if(!$this->CheckFields($arFields)) {
@@ -107,14 +108,15 @@ class CoursesControl
         return $ID;
     }
 
-    function getList($parameters){
+    public static function getList($parameters){
         return CoursesControlTable::getList($parameters);
     }
 
-    function getById($Id){
+    public static function getById($Id){
         return CoursesControlTable::getById($Id);
     }
-    function update($Id, $arFields){
+
+    public function update($Id, $arFields){
         if(!$this->CheckFields($arFields)) {
             return false;
         }
@@ -122,7 +124,8 @@ class CoursesControl
         $ID = $DBManager->getId();
         return $ID;
     }
-    function delete($Id){
+
+    public function delete($Id){
         return CoursesControlTable::delete($Id);
     }
 }

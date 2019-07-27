@@ -43,30 +43,16 @@ class CoursesSubscribeTable extends Main\Entity\DataManager
 
 class CoursesSubscribe
 {
-    function CheckFields($arFields)
+    protected function CheckFields($arFields)
     {
-        if (empty($arFields ['COURSE_ID']) && empty($arFields ['USER_ID'])){
-            return false;
-        }
-
-        $arFields ['COURSE_ID'] = (int) $arFields ['COURSE_ID'];
-        $arFields ['USER_ID'] = (int) $arFields ['USER_ID'];
-
-        $parameters = array(
-            'filter' => array(
-                'COURSE_ID' => $arFields['COURSE_ID'],
-                'USER_ID' => $arFields['USER_ID']
-            )
-        );
-        $result = $this->getList($parameters);
-        while ($row = $result->fetch())
+        if (empty($arFields ['COURSE_ID']) && empty($arFields ['USER_ID']))
         {
             return false;
         }
         return true;
     }
 
-    function add($arFields)
+    public function add($arFields)
     {
         if(!$this->CheckFields($arFields)) {
             return false;
@@ -76,11 +62,11 @@ class CoursesSubscribe
         return $ID;
     }
 
-    function getList($parameters){
+    public static function getList($parameters){
         return CoursesSubscribeTable::getList($parameters);
     }
 
-    function getCourseID($arFields){
+    public static function getCourseID($arFields){
         if (empty($arFields ['COURSE_ID']) && empty($arFields ['USER_ID'])){
             return false;
         }
@@ -94,7 +80,7 @@ class CoursesSubscribe
                 'USER_ID' => $arFields['USER_ID']
             )
         );
-        $result = $this->getList($parameters);
+        $result = self::getList($parameters);
         $courseID = "";
         while ($row = $result->fetch())
         {
@@ -102,7 +88,8 @@ class CoursesSubscribe
         }
         return $courseID;
     }
-    function delete($arFields){
+
+    public function delete($arFields){
         if(!$this->getCourseID($arFields)) {
             return false;
         }else{
