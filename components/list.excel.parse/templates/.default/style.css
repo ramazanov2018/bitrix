@@ -1,0 +1,65 @@
+.xlsx-parse{
+    width: 100%;
+    height: auto;
+}
+
+.form-content {
+    width: 472px;
+    background-color: #fff;
+    padding: 0 10px 10px;
+    margin: auto;
+}
+
+div.form-title{
+    height: 50px;
+}
+div.form-content-file{
+    padding: 20px;
+    background-color: #eef2f4;
+}
+
+div.form-content-buttons {
+    text-align: center;
+    padding: 20px 0 10px;
+    position: relative;
+}
+
+div.div-file{
+    display: block;
+    text-align: center;
+}
+
+.form-input-button {
+    display: inline-block;
+    height: 39px;
+    line-height: 39px;
+    margin: 0 12px 0 0;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "OpenSans-Bold",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    outline: 0;
+    padding: 0 18px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: none;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color .2s linear,color .2s linear;
+    transition: background-color .2s linear,color .2s linear;
+    background: #bbed21;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #535c69;
+    border: 0;
+}
+
+span.span-status{
+    color: green;
+}
+
+div.form-status{
+   text-align: center;
+}
