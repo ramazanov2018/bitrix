@@ -1,0 +1,37 @@
+div.сrm_seance_block {
+    background-color: #f8f9fa;
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+}
+
+table.сrm_seance {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.сrm_seance td,th{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(120, 120, 120, 0.55);
+    padding: 7px;
+}
+
+table.сrm_seance input.seance-format{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 9px;
+    min-height: 30px;
+    max-width: 100%;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #c4c7cc;
+    border-radius: 1px;
+    background-color: #fff;
+    color: #424956;
+    font: 15px/17px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    transition: 220ms all ease;
+}
+table.сrm_seance input.seance-format:hover{
+    border-color: #64a6f3;
+}
