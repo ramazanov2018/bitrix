@@ -1,0 +1,244 @@
+span.popup-window-close-icon {
+    background: url("image/close.svg") no-repeat center !important;
+}
+
+.block-hidden{
+    display: none;
+}
+
+div.popup-window{
+    border-radius: 5px
+}
+
+div.popup-linksApp__tabContent{
+    position: relative;
+}
+
+.popup-linksApp__item__desc{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 43px 30px 54px 30px;
+    z-index: 99999999;
+}
+.popup--small{
+    position: absolute;
+    top: -55px;
+    left: 559px;
+}
+.popup--big{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.item--desc__text{
+    min-width: 400px;
+    min-height: 264px;
+    max-height: 350px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.AppBtn-default{
+    display: block;
+    cursor: pointer;
+    appearance: none;
+    border: 0;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 11px 11px;
+    color: #fff;
+    white-space: nowrap; /* Chrome */
+}
+
+.AppBtn-default:hover{
+    opacity: 0.8;
+}
+
+.AppBtn-default__act{
+    background-color: #1F70EB;
+}
+.AppBtn-default__disact{
+    background-color: #9CB1D6;
+}
+
+.linksApp__item__desc-close-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.linksApp__item__desc-close-icon {
+    width: 21px;
+    height: 21px;
+    top: 24px;
+    right: 24px;
+    background: url("image/close.svg") no-repeat center;
+    background-size: contain;
+    opacity: 0.5;
+    transition: all 0.3s;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+}
+.linksApp__item__desc-close-icon:hover{
+    opacity: 1;
+}
+.popup-linksApp-header__btnSwitch{
+    float: right;
+    height: 32px;
+    margin-top: 8px;
+}
+
+.popup-linksApp-header__btnSwitch img{
+    margin-left: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.popup-linksApp-header__btnSwitch img:hover{
+    opacity: 0.8;
+}
+
+.popup-linksApp {
+    display: flex;
+    padding: 30px 15px 5px 15px;
+    flex-wrap: wrap;
+    width: 540px;
+    min-height: 450px;
+    max-height: 630px;
+    overflow: hidden;
+    overflow-y:scroll;
+    justify-content: stretch;
+}
+
+.popup-linksApp__item {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    width: 25%;
+    min-height: 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.popup-linksApp-header__btnAll{
+    height: 40px;
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid rgba(156, 177, 214, .6) ;
+}
+.popup-linksApp-header__btnItems{
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    padding-left: 15px;
+    overflow-y: scroll;
+}
+.popup-linksApp-header button{
+    height: 100%;
+}
+.popup-linksApp-header__btnItem{
+    margin: 0 15px 0 0;
+}
+.popup-linksApp-header{
+    width: 540px;
+    padding: 27px 56px 0 15px;
+}
+
+.popup-linksApp-item__info {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 27px;
+}
+
+.popup-linksApp-item__info:hover{
+    opacity: 0.8;
+}
+
+.infoDisable {
+    background: url("image/info-disable.svg") no-repeat center;
+}
+
+.infoEnable {
+    background: url("image/info.svg") no-repeat center;
+}
+
+.popup-linksApp-item__favorite {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: url(image/star.svg) no-repeat center;
+    background-size: contain;
+    transition: all 0.3s;
+}
+
+.popup-linksApp-item__favorite:hover {
+    opacity: 0.8;
+}
+
+.popup-linksApp-item__favorite.active {
+    background-image: url(image/star-active.svg);
+}
+
+
+.popup-linksApp-item__image {
+    width: 100%;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 8px;
+}
+
+.popup-linksApp-item__title {
+    color: #252A32;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    max-width: 100%;
+}
+
+.multiselect-container.dropdown-menu input[type="checkbox"] {
+    left: 12px;
+    top: -6px;
+}
+
+.bp-button-text {
+    text-transform: none;
+}
+
+.bp-button {
+    font-family: "OpenSans", Helvetica, Arial, sans-serif;
+    text-transform: none;
+}
+
+.bp-button:hover {
+    font-family: "OpenSans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.bp-button-transparent, .bp-button-transparent:link {
+    font-size: 12px;
+}
+
+.bx-calendar-range .disabled {
+    pointer-events: none;
+}
+.TabsClearBoth{
+    clear: both;
+}
+div.item--desc__text{
+    font-weight: 400;
+    font-size: 12px;
+}
+p.desc__textTitle{
+    font-weight: 700;
+    font-size: 14px;
+}

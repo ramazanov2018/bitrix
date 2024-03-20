@@ -1,0 +1,18 @@
+table.form-table{
+	background-color: white;
+	border-collapse: collapse;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 160%;
+	width: 100%;
+}
+
+.form-required{
+	color: red;
+}
+
+option.sect{
+	font-weight: bold;
+	color: #000000;
+	margin-top: 8px;
+}

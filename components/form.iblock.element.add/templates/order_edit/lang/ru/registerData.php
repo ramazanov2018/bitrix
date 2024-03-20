@@ -1,0 +1,25 @@
+<?php
+$MESS["WEEK_DAY_1"] = "Пн";
+$MESS["WEEK_DAY_2"] = "Вт";
+$MESS["WEEK_DAY_3"] = "Ср";
+$MESS["WEEK_DAY_4"] = "Чт";
+$MESS["WEEK_DAY_5"] = "Пт";
+$MESS["WEEK_DAY_6"] = "Сб";
+$MESS["WEEK_DAY_7"] = "Вс";
+$MESS["YEAR_MONTH_1"] = "января";
+$MESS["YEAR_MONTH_2"] = "февраля";
+$MESS["YEAR_MONTH_3"] = "марта";
+$MESS["YEAR_MONTH_4"] = "апреля";
+$MESS["YEAR_MONTH_5"] = "мая";
+$MESS["YEAR_MONTH_6"] = "июня";
+$MESS["YEAR_MONTH_7"] = "июля";
+$MESS["YEAR_MONTH_8"] = "августа";
+$MESS["YEAR_MONTH_9"] = "сентября";
+$MESS["YEAR_MONTH_10"] = "октября";
+$MESS["YEAR_MONTH_11"] = "ноября";
+$MESS["YEAR_MONTH_12"] = "декабря";
+$MESS["SCHEDULE_NO_DATE"] = "В этот день приёма нет.";
+$MESS["SCHEDULE_NEXT_WEEK"] = "Следующая неделя";
+$MESS["SCHEDULE_PREV_WEEK"] = "Предыдущая неделя";
+$MESS["SCHEDULE_NOW_WEEK"] = "Текущая неделя";
+$MESS["regFormTitle"] = "Расписание";

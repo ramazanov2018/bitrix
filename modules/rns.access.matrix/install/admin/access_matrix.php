@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/local/modules/rns.access.matrix/admin/access_matrix.php");?>

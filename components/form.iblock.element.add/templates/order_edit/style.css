@@ -1,0 +1,87 @@
+table.form-table{
+	background-color: white;
+	border-collapse: collapse;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 160%;
+	width: 100%;
+}
+
+.form-required{
+	color: red;
+}
+
+option.sect{
+	font-weight: bold;
+	color: #000000;
+	margin-top: 8px;
+}
+
+div#regExam-res{
+	padding-bottom: 10px;
+	color: red;
+}
+div#regExam-res p{
+	padding-bottom: 7px;
+}
+
+.btn-schedule-hour {
+	display: block;
+	width: 100%;
+	background-color: transparent;
+	color: #238fd4;
+	border: solid 2px #cecece;
+	font: normal 17px/28px Arial, sans-serif;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a#nextWeek:hover, a#prevWeek:hover{
+	cursor: pointer;
+}
+
+#schedule_result .schedule-day:last-child, .schedule-day-header:last-child{
+	width: 14%;
+}
+
+.btn-schedule-hour:hover, .btn-schedule-hour:focus {
+	color: #ffffff;
+	background: #238fd4;
+	text-decoration: none;
+	border-color: #238fd4;
+	cursor: pointer;
+}
+
+.btn-schedule-hour:active, .btn-schedule-hour.active {
+	color: #ffffff;
+	background: #257fb8;
+	border-color: #257fb8;
+}
+
+.mfp-container-modal {
+	position: fixed;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.mfp-content-modal {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.cn-modal.cn-modal-medium {
+	width: 800px !important;
+	min-height: 600px !important;
+	padding: 0 0 15px ;
+}
+
+.cn-modal-close, .cn-modal-close.mfp-close{
+	margin: 0  !important;
+}
