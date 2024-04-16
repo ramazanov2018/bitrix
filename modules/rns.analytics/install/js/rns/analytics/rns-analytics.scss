@@ -1,0 +1,125 @@
+#heat-map__popup .popup-window-content {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.heartMap__form-label-container {
+  display: block;
+  margin-bottom: 5px;
+
+  &.with-top-margin {
+    margin-top: 20px;
+  }
+}
+
+.heartMap__form-label {
+  color: #a3a9b1;
+
+  &.error {
+    color: red;
+  }
+}
+
+#bx-component-scope-bitrix_tasks_widget_member_selector_1 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.heartMap__form-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.heartMap__form-block-50 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+
+  &.left {
+    padding-right: 10px;
+  }
+}
+
+.heartMap_submit {
+  display: none;
+}
+.heartMap_error {
+  border-color: #ff5752;
+}
+
+#heartMap__interval-wrapper {
+  .heartMap__form-block-50 {
+    display: none;
+  }
+
+  &.last {
+    .heartMap__form-block-50 {
+      &.center {
+        display: inline-block;
+      }
+    }
+  }
+
+  &.interval {
+    .heartMap__form-block-50 {
+      &.left {
+        display: inline-block;
+      }
+      &.right {
+        padding-left: 0;
+        display: inline-block;
+      }
+    }
+  }
+
+  &.before {
+    .heartMap__form-block-50 {
+      &.left {
+        display: inline-block;
+      }
+    }
+  }
+
+  &.after {
+    .heartMap__form-block-50 {
+      &.right {
+        padding-left: 0;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+#heatmapContainerWrapper {
+  cursor: pointer;
+  &:before {
+    content: '';
+    background-color: #ffffff;
+    width: 32px;
+    height: 4px;
+    position: absolute;
+    top: 50px;
+    right: 4px;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    z-index: 10;
+  }
+  &:after {
+    content: '';
+    background-color: #ffffff;
+    width: 32px;
+    height: 4px;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    transform: rotate(-45deg);
+    transform-origin: top right;
+    z-index: 10;
+  }
+}

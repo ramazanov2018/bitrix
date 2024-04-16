@@ -1,0 +1,20 @@
+<?php
+$MESS["RNS_ANVIEW_thisMonth"]="Этот месяц";
+$MESS["RNS_ANVIEW_lastMonth"]="Прошлый месяц";
+$MESS["RNS_ANVIEW_thisWeek"]="Эта неделя";
+$MESS["RNS_ANVIEW_lastWeek"]="Прошлая неделя";
+$MESS["RNS_ANVIEW_last"]="За последние";
+$MESS["RNS_ANVIEW_before"]="Позже";
+$MESS["RNS_ANVIEW_after"]="Раньше";
+$MESS["RNS_ANVIEW_interval"]="Интервал";
+$MESS["RNS_ANVIEW_allTime"]="За все время";
+$MESS["RNS_ANVIEW_BTN_SAVE"]="Применить";
+$MESS["RNS_ANVIEW_BTN_CANCEL"]="Сбросить";
+$MESS["RNS_ANVIEW_DATA_NUMBER"]="По числу переходов";
+$MESS["RNS_ANVIEW_DATA_TIME"]="По времени пребывания";
+$MESS["RNS_ANVIEW_FORM_ERROR_MSG"]="Не все обязательные поля заполнены.";
+$MESS["RNS_ANVIEW_employee"]="Сотрудники:*";
+$MESS["RNS_ANVIEW_period"]="Отчетный период:";
+$MESS["RNS_ANVIEW_from"]="От:*:";
+$MESS["RNS_ANVIEW_to"]="До:*:";
+$MESS["RNS_ANVIEW_days"]="Дней:*";
