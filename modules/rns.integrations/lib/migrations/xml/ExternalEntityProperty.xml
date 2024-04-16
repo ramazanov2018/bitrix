@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Код задачи</uf_name>
+			<uf_code>jira_issue_key</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Код проекта</uf_name>
+			<uf_code>issue_project_key</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Идентификатор родительской задачи</uf_name>
+			<uf_code>parent_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Сводка</uf_name>
+			<uf_code>summary</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Тип задачи</uf_name>
+			<uf_code>issue_type</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Статус</uf_name>
+			<uf_code>status</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Приоритет</uf_name>
+			<uf_code>priority</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Автор</uf_name>
+			<uf_code>creator</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Исполнитель</uf_name>
+			<uf_code>reporter</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Решение</uf_name>
+			<uf_code>resolution</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Комментарии</uf_name>
+			<uf_code>cf_komentarii</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>ID задачи</uf_name>
+			<uf_code>Id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Название задачи</uf_name>
+			<uf_code>Name</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Начало</uf_name>
+			<uf_code>PlannedStart</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>Окончание</uf_name>
+			<uf_code>PlannedFinish</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_name>Предшественник</uf_name>
+			<uf_code>PredecessorId</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_name>Родительская задача</uf_name>
+			<uf_code>ParentId</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_name>Ресурсы</uf_name>
+			<uf_code>ResourceNames</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_name>ID задачи</uf_name>
+			<uf_code>issue_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_name>Идентификатор задачи</uf_name>
+			<uf_code>id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_name>Идентификатор задачи в SAP</uf_name>
+			<uf_code>task_key</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_name>Название задачи</uf_name>
+			<uf_code>name</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_name>Описание задачи</uf_name>
+			<uf_code>description</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_name>Дата завершения</uf_name>
+			<uf_code>deadline</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_name>Дата создания</uf_name>
+			<uf_code>create_date</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_name>Дата изменения</uf_name>
+			<uf_code>change_date</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_name>Идентификатор статуса задачи</uf_name>
+			<uf_code>status_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_name>Идентификатор проекта</uf_name>
+			<uf_code>project_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>29</id>
+			<uf_name>Идентификатор пользователя</uf_name>
+			<uf_code>user_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>30</id>
+			<uf_name>Идентификатор приоритета</uf_name>
+			<uf_code>priority_id</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>31</id>
+			<uf_name>Дата крайнего обновления задачи</uf_name>
+			<uf_code>saved</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>32</id>
+			<uf_name>Время, отведенное на задачу</uf_name>
+			<uf_code>planned_time</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>33</id>
+			<uf_name>Название</uf_name>
+			<uf_code>name</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>34</id>
+			<uf_name>Описание</uf_name>
+			<uf_code>description</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>43</id>
+			<uf_name>Вероятность наступления риска</uf_name>
+			<uf_code>risk_probability</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>44</id>
+			<uf_name>	Тяжесть последствий наступления риска</uf_name>
+			<uf_code>risk_consequence</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>45</id>
+			<uf_name>Связанная задача</uf_name>
+			<uf_code>outwardissuelink</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>46</id>
+			<uf_name>Дата создания</uf_name>
+			<uf_code>created</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>47</id>
+			<uf_name>Дата изменения</uf_name>
+			<uf_code>updated</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>48</id>
+			<uf_name>Уровень задачи</uf_name>
+			<uf_code>OutlineLevel</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>ms_project</uf_system_code>
+		</item>
+		<item>
+			<id>49</id>
+			<uf_name>Тэги</uf_name>
+			<uf_code>labels</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>50</id>
+			<uf_name>Плановая дата завершения</uf_name>
+			<uf_code>duedate</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>51</id>
+			<uf_name>Затраченное время</uf_name>
+			<uf_code>timespent</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>52</id>
+			<uf_name>Спринт</uf_name>
+			<uf_code>cf_sprint</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>53</id>
+			<uf_name>Бюджет</uf_name>
+			<uf_code>cf_budjet</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>54</id>
+			<uf_name>Версия поставки</uf_name>
+			<uf_code>fixversions</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>55</id>
+			<uf_name>Дата завершения</uf_name>
+			<uf_code>resolutiondate</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>56</id>
+			<uf_name>Длительность</uf_name>
+			<uf_code>originalestimate</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>57</id>
+			<uf_name>Уровень задачи</uf_name>
+			<uf_code>security_level</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>58</id>
+			<uf_name>Описание задачи</uf_name>
+			<uf_code>issue_project_description</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+	</items>
+</hiblock>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_source_id>2</uf_source_id>
+			<uf_entity_source>src.jiraissue</uf_entity_source>
+			<uf_entity_key_field>jira_issue_key</uf_entity_key_field>
+			<uf_entity_id_field_name>issue_id</uf_entity_id_field_name>
+			<uf_parent_field_name>parent_id</uf_parent_field_name>
+			<uf_created_field_name>created</uf_created_field_name>
+			<uf_is_saved_field_name>updated</uf_is_saved_field_name>
+			<uf_project_source>src.project</uf_project_source>
+			<uf_project_key_field>project_key</uf_project_key_field>
+			<uf_project_display_field>project_key</uf_project_display_field>
+			<uf_entity_ref_field_name>issue_project_key</uf_entity_ref_field_name>
+			<uf_user_source>src.cwd_user</uf_user_source>
+			<uf_user_source_key_field>user_key</uf_user_source_key_field>
+			<uf_user_display_field>user_name, emailaddress, displayname</uf_user_display_field>
+			<uf_translit_needed>1</uf_translit_needed>
+			<uf_value_mapping>{
+	&quot;UF_RNS_RISK_PROBABILITY&quot;: {
+		&quot;Almost sertain&quot;: 5,
+		&quot;Very likely&quot;: 4,
+		&quot;Likely&quot;: 3,
+		&quot;Unlikely&quot;: 2,
+		&quot;Very unlikely&quot;: 1
+	},
+	&quot;UF_RNS_TASK_PRIORITY&quot;: {
+		&quot;Low&quot;: &quot;0&quot;,
+		&quot;Medium&quot;: &quot;1&quot;,
+		&quot;High&quot;: &quot;2&quot;,
+		&quot;Blocker&quot;: &quot;3&quot;
+	},
+	&quot;UF_RNS_DECISION&quot;: {
+		&quot;Готово&quot;: 53,
+		&quot;Canceled&quot;: 57
+	}
+}</uf_value_mapping>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_source_id>3</uf_source_id>
+			<uf_entity_source />
+			<uf_entity_key_field>Id</uf_entity_key_field>
+			<uf_entity_id_field_name>Id</uf_entity_id_field_name>
+			<uf_parent_field_name />
+			<uf_created_field_name>CreateDate</uf_created_field_name>
+			<uf_is_saved_field_name>updated</uf_is_saved_field_name>
+			<uf_project_source />
+			<uf_project_key_field />
+			<uf_project_display_field />
+			<uf_entity_ref_field_name />
+			<uf_user_source />
+			<uf_user_source_key_field />
+			<uf_user_display_field />
+			<uf_translit_needed>0</uf_translit_needed>
+			<uf_value_mapping />
+		</item>
+		<item>
+			<id>3</id>
+			<uf_source_id>5</uf_source_id>
+			<uf_entity_source>tasks</uf_entity_source>
+			<uf_entity_key_field>task_key</uf_entity_key_field>
+			<uf_entity_id_field_name>id</uf_entity_id_field_name>
+			<uf_parent_field_name />
+			<uf_created_field_name>create_date</uf_created_field_name>
+			<uf_is_saved_field_name>saved</uf_is_saved_field_name>
+			<uf_project_source>projects</uf_project_source>
+			<uf_project_key_field>id</uf_project_key_field>
+			<uf_project_display_field>project_name</uf_project_display_field>
+			<uf_entity_ref_field_name>project_id</uf_entity_ref_field_name>
+			<uf_user_source>users</uf_user_source>
+			<uf_user_source_key_field>id</uf_user_source_key_field>
+			<uf_user_display_field>email</uf_user_display_field>
+			<uf_translit_needed>1</uf_translit_needed>
+			<uf_value_mapping>{
+	&quot;TITLE&quot;: {
+		&quot;Название в SAP 1&quot;: &quot;Название в СППР 1&quot;,
+		&quot;Название в SAP 2&quot;: &quot;Название в СППР 2&quot;
+	},
+	&quot;UF_RNS_TASK_PRIORITY&quot;: {
+		&quot;1&quot;: &quot;0&quot;,
+		&quot;2&quot;: &quot;1&quot;,
+		&quot;3&quot;: &quot;2&quot;,
+		&quot;4&quot;: &quot;3&quot;
+	}
+}</uf_value_mapping>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_source_id>4</uf_source_id>
+			<uf_entity_source>tasks</uf_entity_source>
+			<uf_entity_key_field>task_key</uf_entity_key_field>
+			<uf_entity_id_field_name>id</uf_entity_id_field_name>
+			<uf_parent_field_name />
+			<uf_created_field_name>create_date</uf_created_field_name>
+			<uf_is_saved_field_name>saved</uf_is_saved_field_name>
+			<uf_project_source>projects</uf_project_source>
+			<uf_project_key_field>id</uf_project_key_field>
+			<uf_project_display_field>project_name</uf_project_display_field>
+			<uf_entity_ref_field_name>project_id</uf_entity_ref_field_name>
+			<uf_user_source>users</uf_user_source>
+			<uf_user_source_key_field>id</uf_user_source_key_field>
+			<uf_user_display_field>email</uf_user_display_field>
+			<uf_translit_needed>1</uf_translit_needed>
+			<uf_value_mapping>{
+	&quot;PRIORITY&quot;: {
+		&quot;Низкий&quot;: 0,
+		&quot;Средний&quot;: 1,
+		&quot;Высокий&quot;: 2
+	}
+}</uf_value_mapping>
+		</item>
+	</items>
+</hiblock>

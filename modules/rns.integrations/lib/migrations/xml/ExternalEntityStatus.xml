@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Ожидает выполнения</uf_name>
+			<uf_code>SDELAT</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Выполняется</uf_name>
+			<uf_code>V_RABOTE</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Тестирование</uf_name>
+			<uf_code>TESTIROVANIE</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Закрыт</uf_name>
+			<uf_code>ZAKRYTA</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Переоткрыт</uf_name>
+			<uf_code>REOPENED</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Решен</uf_name>
+			<uf_code>GOTOVO</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>jira</uf_system_code>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Новая</uf_name>
+			<uf_code>1</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>В работе</uf_name>
+			<uf_code>2</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>На паузе</uf_name>
+			<uf_code>3</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Завершен</uf_name>
+			<uf_code>4</uf_code>
+			<uf_active>1</uf_active>
+			<uf_system_code>sap</uf_system_code>
+		</item>
+	</items>
+</hiblock>

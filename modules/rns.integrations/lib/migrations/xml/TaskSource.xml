@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>СППР</uf_name>
+			<uf_xml_id>SPPR</uf_xml_id>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Jira</uf_name>
+			<uf_xml_id>JIRA</uf_xml_id>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>MS Project</uf_name>
+			<uf_xml_id>MS_PROJECT</uf_xml_id>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>SAP</uf_name>
+			<uf_xml_id>SAP</uf_xml_id>
+		</item>
+	</items>
+</hiblock>

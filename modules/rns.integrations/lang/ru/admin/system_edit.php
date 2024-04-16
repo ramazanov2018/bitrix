@@ -1,0 +1,9 @@
+<?php
+$MESS['INTEGRATIONS_SYSTEM_EDIT_TITLE'] = 'Информационная система';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_BTN_LIST_TITLE'] = 'Список информационных систем';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_GENERAL'] = 'Основное';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_GENERAL_TAB_TITLE'] = 'Настройка параметров информационной системы';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_FIELD_NAME'] = 'Название*';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_FIELD_CODE'] = 'Символьный код*';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_FIELD_DESCRIPTION'] = 'Описание';
+$MESS['INTEGRATIONS_SYSTEM_EDIT_FIELD_ACTIVE'] = 'Активность';
