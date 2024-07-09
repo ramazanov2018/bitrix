@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+    <items>
+        <item>
+            <uf_xml_id>b1</uf_xml_id>
+            <uf_date_birthday>04.06.2024</uf_date_birthday>
+            <uf_user>1</uf_user>
+            <uf_address_city>moscow</uf_address_city>
+        </item>
+        <item>
+            <uf_xml_id>b2</uf_xml_id>
+            <uf_date_birthday>11.06.2024</uf_date_birthday>
+            <uf_user>1</uf_user>
+            <uf_address_city>moscow</uf_address_city>
+        </item>
+        <item>
+            <uf_xml_id>b3</uf_xml_id>
+            <uf_date_birthday>04.06.2024</uf_date_birthday>
+            <uf_user>1</uf_user>
+            <uf_address_city>moscow</uf_address_city>
+        </item>
+        <item>
+            <uf_xml_id>b4</uf_xml_id>
+            <uf_date_birthday>23.06.2021</uf_date_birthday>
+            <uf_user>1</uf_user>
+            <uf_address_city>saint-petersburg</uf_address_city>
+        </item>
+        <item>
+            <uf_xml_id>b5</uf_xml_id>
+            <uf_date_birthday>07.06.2021</uf_date_birthday>
+            <uf_user>1</uf_user>
+            <uf_address_city>saint-petersburg</uf_address_city>
+        </item>
+    </items>
+</hiblock>
